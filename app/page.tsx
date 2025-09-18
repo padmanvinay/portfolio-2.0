@@ -75,7 +75,7 @@ export default function Page() {
                 (t, i) => (
                   <span
                     key={t}
-                    className="rounded-full px-2.5 py-1 text-xs font-medium bg-emerald-400/20 text-emerald-300 border border-emerald-400/30 animate-float"
+                    className="rounded-full px-2.5 py-1 text-xs font-medium bg-emerald-500/80 text-white border border-emerald-400/50 animate-float"
                     style={{ animationDelay: `${i * 0.1}s` }}
                   >
                     {t}
